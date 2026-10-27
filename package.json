@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ipquery",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "IPQuery MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-59688efed58787f97a74b9cb2982907a3af5a886e229d37d6f9b88d67fb3699d",
-    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
+    "sourceHash": "v1-ee00a5e418a4840579a312bce72cf130feecf3e7ee9bcec5ecc6d94ab0e1e7ad",
+    "sourceCommit": "33741fe6d9ba71856e73fa683c73572d1ddf2e93"
   }
 }
