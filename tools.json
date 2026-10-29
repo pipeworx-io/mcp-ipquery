@@ -1,0 +1,34 @@
+[
+  {
+    "name": "lookup_ip",
+    "description": "Full IP intelligence for an IPv4 or IPv6 address — geolocation (country, city, state, postal code, lat/long, timezone, local time), ISP/ASN/org, and security risk flags (VPN, proxy, Tor, datacenter, mobile + a 0-100 risk score). Keyless.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "ip": {
+          "type": "string",
+          "description": "An IPv4 or IPv6 address to look up, e.g. \"8.8.8.8\" or \"2606:4700:4700::1111\"."
+        }
+      },
+      "required": [
+        "ip"
+      ]
+    }
+  },
+  {
+    "name": "check_risk",
+    "description": "Fraud/security view of an IP: is it a VPN, proxy, Tor exit, datacenter/hosting, or mobile network, plus a 0-100 risk score and a one-line assessment. Answers \"is this IP an anonymizer / bot / datacenter, or a clean residential IP?\". Keyless.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "ip": {
+          "type": "string",
+          "description": "An IPv4 or IPv6 address to assess, e.g. \"8.8.8.8\" or \"185.220.101.1\"."
+        }
+      },
+      "required": [
+        "ip"
+      ]
+    }
+  }
+]
